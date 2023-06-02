@@ -1,12 +1,10 @@
-title: El_photography
-url: https://saumil-sh.github.io/el_photo/
+title: Varun Manavazhi
+url: varun.selfhost.tv
 baseurl:
 
 author: Saumil Shah
-description: A highly automatic jekyll photo gallery.
+description: A highly automatic jekyll video gallery.
 
 include: ['_pages']
 
 markdown: kramdown
-kramdown:
-  input: GFM

@@ -7,10 +7,16 @@
 		</p>
 		<div id="navbar-wrapper">
 			<div id="navbar" class="close">
-				<a onclick="menuExpand()"><img id="brand" class="hide" src="{{ "/assets/img/logo.svg" | relative_url }}"></a>
+				<a onclick="menuExpand()">
+					<img id="brand" class="hide" src="{{ "/assets/img/logo.svg" | relative_url }}">
+				</a>
 				{% assign mypages = site.pages | where: "type", "parent" | sort: "order" %}
 				{% for page in mypages %}
+				{% if page.order == 1 %}
+				<a class="button" href="{{ page.url | relative_url }}">home</a>
+				{% else %}
 				<a class="button" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+				{% endif %}
 				{% endfor %}
 			</div>
 		</div>

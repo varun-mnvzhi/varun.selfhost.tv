@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,jekyll
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,jekyll
 
+# VScode temp
+.vscode/
+
 ### Jekyll ###
 _site/
 .sass-cache/
