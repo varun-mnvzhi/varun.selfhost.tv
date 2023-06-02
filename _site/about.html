@@ -6,8 +6,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>About | El_photography</title>
-  <meta name="description" content="Discovering the world with my vision.">
-  <meta name="author" content="Disha Patel">
+  <meta name="description" content="A highly automatic jekyll photo gallery.">
+  <meta name="author" content="Saumil Shah">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -41,15 +41,11 @@
 				<a onclick="menuExpand()"><img id="brand" class="hide" src="/assets/img/logo.svg"></a>
 				
 				
-				<a class="button" href="/">home</a>
+				<a class="button" href="/">Home</a>
 				
 				<a class="button" href="/about.html">about</a>
 				
-				<a class="button" href="/portraits.html">portraits</a>
-				
-				<a class="button" href="/projects.html">projects</a>
-				
-				<a class="button" href="/travel.html">travel</a>
+				<a class="button" href="/IISER.html">IISER</a>
 				
 			</div>
 		</div>
@@ -60,15 +56,15 @@
 	<div class="section main">
 	<div class="container">
 		<p style="text-align: center;">
-I am a traveler who misses her trains. Despite being messed up with my flight schedules, I still manage to visit places and document what the world has to offer, from surreal nature to its kind souls. I believe everyone has their own journey, and it is worth documenting.<br />
-—<br />
-Why El?<br />
-El is short for Elysian.<br />
-—<br />
-Elysian (<em>adjective</em>)<br />
-<strong>/ɪˈlɪzɪən/</strong><br />
-1. of or relating to Elysium<br />
-2. blissful, delightful elysian peace<br />
+I am a traveler who misses her trains. Despite being messed up with my flight schedules, I still manage to visit places and document what the world has to offer, from surreal nature to its kind souls. I believe everyone has their own journey, and it is worth documenting.
+—
+Why El?
+El is short for Elysian.
+—
+Elysian (<em>adjective</em>)
+<strong>/ɪˈlɪzɪən/</strong>
+1. of or relating to Elysium
+2. blissful, delightful elysian peace
 		</p>
 	</div>
 </div>
@@ -80,75 +76,77 @@ Elysian (<em>adjective</em>)<br />
         <img src="/assets/img/logo_dark.svg">
         <p class="section-description">Get in touch.</p>
         <div class="social">
-            <a href="https://www.instagram.com/diisshhaashh/"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:dishap71@gmail.com"><i class="fas fa-paper-plane"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:samdon97@gmail.com"><i class="fas fa-paper-plane"></i></a>
         </div>
-        <p>Copyright <i class="fas fa-copyright"></i> 2019 All Rights Reserved.</p>
-        <p class="credit">Made with <i class="fas fa-heart"></i> by <a target="_blank" href="https://samd97.github.io">Saumil Shah</a>.</p>
+        <p>Copyright <i class="fas fa-copyright"></i> 2023 All Rights Reserved.</p>
+        <p class="credit">Made with <i class="fas fa-heart"></i> by <a target="_blank"
+                href="https://saumil-sh.github.io">Saumil Shah</a>.</p>
     </div>
 </div>
 
 <!-- IntersectionObserver polyfill -->
-<script src="https://raw.githubusercontent.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js"></script>
+<script
+    src="https://raw.githubusercontent.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js"></script>
 
 <!-- Lozad -->
 <script src="https://cdn.jsdelivr.net/npm/lozad"></script>
 
 <!-- sticky navbar -->
 <script type="text/javascript">
-window.onscroll = function() {myFunction()};
+    window.onscroll = function () { myFunction() };
 
-var navbar = document.getElementById("navbar");
-var brand = document.getElementById("brand");
-var height = navbar.offsetHeight; // find height of the navbar
-var sticky = navbar.offsetTop + height; // find y-pos of the navbar
+    var navbar = document.getElementById("navbar");
+    var brand = document.getElementById("brand");
+    var height = navbar.offsetHeight; // find height of the navbar
+    var sticky = navbar.offsetTop + height; // find y-pos of the navbar
 
-var wrapper = document.getElementById("navbar-wrapper");
-wrapper.style.height = height + "px";
+    var wrapper = document.getElementById("navbar-wrapper");
+    wrapper.style.height = height + "px";
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-    brand.classList.remove("hide");
-    brand.classList.add("fade");
-  } else {
-    navbar.classList.remove("sticky");
-    brand.classList.add("hide");
-  }
-}
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            brand.classList.add("fade");
+            brand.classList.remove("hide");
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+            brand.classList.add("hide");
+        }
+    }
 </script>
 
 <!-- lazy loading -->
 <script type="text/javascript">
-// Initialize library
-lozad('.lozad', {
-    load: function(el) {
-        el.src = el.dataset.src;
-        el.onload = function() {
-            el.classList.add('fade');
+    // Initialize library
+    lozad('.lozad', {
+        load: function (el) {
+            el.src = el.dataset.src;
+            el.onload = function () {
+                el.classList.add('fade');
+            }
         }
-    }
-}).observe()
+    }).observe()
 
-// Initialize library to lazy load images
-var observer = lozad('.lozad', {
-    threshold: 0.1,
-    load: function(el) {
-        el.src = el.getAttribute("data-src");
-        el.onload = function() {
-            el.classList.add('fade');
+    // Initialize library to lazy load images
+    var observer = lozad('.lozad', {
+        threshold: 0.1,
+        load: function (el) {
+            el.src = el.getAttribute("data-src");
+            el.onload = function () {
+                el.classList.add('fade');
+            }
         }
-    }
-})
+    })
 
-// Picture observer
-// with default `load` method
-var pictureObserver = lozad('.lozad-picture', {
-    threshold: 0.1
-})
+    // Picture observer
+    // with default `load` method
+    var pictureObserver = lozad('.lozad-picture', {
+        threshold: 0.1
+    })
 
-observer.observe()
-pictureObserver.observe()
+    observer.observe()
+    pictureObserver.observe()
 </script>
 
 
@@ -173,13 +171,13 @@ pictureObserver.observe()
 
 <script type="text/javascript">
     function menuExpand() {
-  var x = document.getElementById("navbar");
-  if (x.className === "close sticky") {
-    x.className = "open sticky";
-  } else {
-    x.className = "close sticky";
-  }
-}
+        var x = document.getElementById("navbar");
+        if (x.className === "close sticky") {
+            x.className = "open sticky";
+        } else {
+            x.className = "close sticky";
+        }
+    }
 </script>
 
 <!-- font-awesome -->

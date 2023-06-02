@@ -1,5 +1,5 @@
 ---
-title: home
+title: Home
 layout: home
 type: parent
 order: 1
@@ -10,7 +10,7 @@ order: 1
 		<img src="{{ "/assets/img/logo.svg" | relative_url }}">
 		<h3 class="section-heading">photography</h3>
 		<p class="section-description">
-			Discovering the world with my vision.
+			discovering the world with my vision
 		</p>
 		<div id="navbar-wrapper">
 			<div id="navbar">
@@ -27,15 +27,11 @@ order: 1
 <div class="section main">
 	<div class="container">
 		<div class="row" id="gallery">
-			{% assign coll = site.collections | where: "label", "home" | first %}
-			{% assign list = coll.files | sort: "basename" %}
-			<!--{% assign l = coll.files.size | divided_by: 2 | ceil %}-->
 			<div class="column">
-				{% for image in list limit: 1 %}
 				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+					<!-- <img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" /> -->
+					<iframe width="960" height="540" src="https://www.youtube.com/embed/Dic2QqrEtUk" title="The Science of Coffee" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</article>
-				{% endfor %}
 			</div>
 			<!--<div class="one-half column">
 				{% for image in list offset: l %}
