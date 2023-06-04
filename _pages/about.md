@@ -23,8 +23,7 @@ layout: parent
 
 {:md_center: style="text-align: center;"}
 
-I am a wildlife film editor and DIT at [Felis creations](https://www.youtube.com/user/feliscreationsindia). 
-Varun is a wildlife researcher turned natural history film editor and DIT who is driven by stories about our beautiful planet and the myriad of creatures that call it home. 
+Varun is a wildlife film editor and DIT at [Felis Creations](https://www.youtube.com/user/feliscreationsindia). Varun is a wildlife researcher turned natural history film editor and DIT who is driven by stories about our beautiful planet and the myriad of creatures that call it home. 
 {: md_center}
 Why El?  
 El is short for Elysian.
@@ -34,4 +33,11 @@ __/ɪˈlɪzɪən/__
 {: md_center}
 1. of or relating to Elysium
 2. blissful, delightful elysian peace
+{: md_center}
+
+
+
+I am not centre.
+
+I am centre.
 {: md_center}
