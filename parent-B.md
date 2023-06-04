@@ -1,37 +1,24 @@
 ---
-# `index.md` is the homepage of the website
+# `parent-B.md` is a parent page in the website
 
 # `title` sets the title of the web page
 # appears at the beginning of the web page and in the tab of web browsers
-title: film editor
+title: parent-B
 # `description` is a tag line or sub-heading for the web page.
-description: discovering the world with my vision
+description: Showing of some sweet B
 # `type` decides what kind of page is this and where does it appear
 # set this to `parent` to make this page appear in the navigation bar
 # set this to the `title` of the parent you want it to appear under
 type: parent
 # `order` decides order of appearance of this web page in the navigation bar
 # set this to `1` for the homepage (`index.md`)
-order: 1
+order: 4
 # `layout` is the looks of this web page
 # set this to `parent` for everything that is listed in the navigation bar
 # set this to `default` for everything that is not listed in the navigation bar
 layout: parent
-# `hero` is required for only homepage, i.e. `type: parent`, and `order: 1`
-# set this to a unique youtube video id 
-hero: Gp25OkDIKjQ
 ---
 
-[//]: # (Here you can write the content of the home page in markdown.)
+[//]: # (Here you can write the content of the page in markdown.)
 
-I will appear after hero video in the homepage.
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
+Integer velit ligula, iaculis non felis id, dapibus porttitor nisl. Maecenas in quam et massa auctor rutrum. Ut vitae neque aliquet, varius sem vitae, molestie odio. Aliquam lacus dui, posuere eget lacus at, eleifend pharetra tellus. Phasellus velit augue, iaculis id pellentesque id, tempor in tellus. Duis sagittis blandit molestie. Praesent nulla augue, consectetur at vulputate sed, ultricies id eros. Praesent felis diam, placerat id faucibus sed, ullamcorper at magna. Sed quis feugiat sapien. Fusce in euismod orci, sit amet posuere risus.

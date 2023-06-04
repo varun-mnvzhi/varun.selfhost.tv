@@ -4,7 +4,48 @@
 <body>
 	{% include header.html %}
  	<!-- Primary Page Layout -->
-	{{ content }}
+	{% if page.order == 1 %}
+	<div class="section hero">
+		<div class="container">
+			<!-- Home Page Layout -->
+			<div class="row" id="gallery">
+				<div class="column">
+					<article class="thumb">
+						<iframe width="960" height="540"
+						src="https://www.youtube.com/embed/{{ page.hero }}"
+						title="The Science of Coffee" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</article>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					{{ content }}
+				</div>
+			</div>
+			<!-- End Home Page Layout -->
+	{% else %}
+	<div class="section main">
+		<div class="container">
+			<!-- Parent Page Layout -->
+			<div class="row">
+				<div class="column">
+					{{ content }}
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					{% assign mypages = site.pages | where: "type", page.title %}
+					{% for page in mypages %}
+					<a class="button" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+					{% endfor %}
+				</div>
+			</div>
+			<!-- End Parent Page Layout -->
+			{% endif %}
+		</div>
+	</div>
+
 	<!-- End Document -->
 	{% include footer.html %}
 </body>

@@ -7,10 +7,12 @@
 
 	<div class="section main">
 		<div class="container">
-			{{ page.body | markdownify }}
+			<div class="row">
+				<div class="column">
+					{{ content }}
+				</div>
+			</div>
 			<div class="row" id="gallery">
-				{% assign k = page.name.size | minus: 3 %}
-				{% assign n = page.name | slice: 0, k %}
 				<div class="one-half column">
 					{% for link in page.links %}
 					<iframe width="480" height="270"
