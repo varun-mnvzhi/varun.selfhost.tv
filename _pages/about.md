@@ -18,6 +18,17 @@ order: 2
 # set this to `default` for everything that is not listed in the navigation bar
 layout: parent
 ---
+<head>
+<style>
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}
+</style>
+</head>
 
 [//]: # (I wanted this text centered so here is a hack using kramdown blocks.)
 
