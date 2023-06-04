@@ -20,19 +20,16 @@ layout: parent
 ---
 
 [//]: # (I wanted this text centered so here is a hack using kramdown blocks.)
-
-<div style="width: 100%; height: 650px;">  
   
-<div style="background-color: red; width: 50%; height: 500px; float:left;">  
+<div style="width: 50%; height: 500px; float:left;">  
 <img src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg" width="500" height="500">
 </div>  
   
-<div style="width:50%; height: 500px; float:left;">  
-{:md_center: style="text-align: center;"}
+<div style="width:50%; height: 500px; float:left;"> 
+
 
 I’m a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home. I’m comfortable with both extreme weather remote DIT assignments and high intensity post production studio work. At present, I work with BAFTA Award winning National Geopraphic Filmmaker [**Sandesh Kadur**](https://en.wikipedia.org/wiki/Sandesh_Kadur) as editor & DIT at at [**Felis Creations**](https://www.felis.in).
 
-{: md_center}  
 </div>  
 </div>  
 
