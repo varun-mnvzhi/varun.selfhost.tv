@@ -21,6 +21,7 @@ layout: parent
 
 [//]: # (Here you can write the content of the page in markdown.)
 
+{:md_center: style="text-align: center;"}
 Reach out to me and let’s create something amazing together.
 {: md_center}
 
