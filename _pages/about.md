@@ -24,15 +24,13 @@ layout: parent
 <div style="background-color: blue; width: 100%; height: 650px;">  
   
         <div style="background-color: red; width: 50%; height: 550px; float:left;">  
-This is the first division to have a vertical alignment.  
+<img src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg" width="500" height="500">
         </div>  
   
         <div style="background-color: yellow; width:50%; height: 550px; float:left;">  
   This is the second division to have a vertical alignment.  
         </div>  
     </div>  
-    
-<img src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg" width="500" height="500">
 
 {:md_center: style="text-align: center;"}
 
