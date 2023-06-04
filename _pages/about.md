@@ -26,6 +26,8 @@ layout: parent
 I’m a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home. I’m comfortable with both extreme weather remote DIT assignments and high intensity post production studio work. At present, I work with BAFTA Award winning National Geopraphic Filmmaker [Sandesh Kadur](https://en.wikipedia.org/wiki/Sandesh_Kadur) as editor & DIT at at [Felis Creations](https://www.felis.in).
 
 {: md_center}
+
+
 Why El?  
 El is short for Elysian.
 {: md_center}
@@ -34,11 +36,4 @@ __/ɪˈlɪzɪən/__
 {: md_center}
 1. of or relating to Elysium
 2. blissful, delightful elysian peace
-{: md_center}
-
-
-
-I am not centre.
-
-I am centre.
 {: md_center}

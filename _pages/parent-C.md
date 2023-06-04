@@ -22,3 +22,16 @@ layout: parent
 [//]: # (Here you can write the content of the page in markdown.)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sem eros, facilisis nec dolor a, suscipit accumsan ante. Nulla elementum accumsan leo at aliquet. Donec cursus varius turpis ut elementum. Vestibulum vitae lorem auctor mi faucibus consequat et sed turpis. Nunc venenatis porta eros, non posuere justo malesuada et. Nam eget luctus ipsum. Duis mattis volutpat enim, sit amet consectetur lectus eleifend quis. Pellentesque faucibus, enim in vestibulum sollicitudin, nibh massa malesuada augue, a rhoncus neque nisi in erat. Quisque eros ante, placerat a pellentesque ac, efficitur non libero.
+
+<h1>Get in touch</h1>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
