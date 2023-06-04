@@ -21,7 +21,7 @@ layout: parent
 
 [//]: # (I wanted this text centered so here is a hack using kramdown blocks.)
 
-<img src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg">
+<img src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg" width="500" height="500">
 
 {:md_center: style="text-align: center;"}
 
