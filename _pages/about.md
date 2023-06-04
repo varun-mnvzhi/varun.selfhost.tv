@@ -31,10 +31,5 @@ I’m a wildlife researcher turned natural history film editor driven by stories
 
 <div class="row">
     <div class="six columns"><img src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg" width="400" height="400"></div>
-    <div class="six columns">I’m a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home. I’m comfortable with both extreme weather remote DIT assignments and high intensity post production studio work. At present, I work with BAFTA Award winning National Geopraphic Filmmaker [**Sandesh Kadur**](https://en.wikipedia.org/wiki/Sandesh_Kadur) as editor & DIT at at [**Felis Creations**](https://www.felis.in).</div>
-  </div>
-
-sdasdas
-
-das
-sadasd
+    <div class="six columns">I’m a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home. I’m comfortable with both extreme weather remote DIT assignments and high intensity post production studio work. At present, I work with BAFTA Award winning National Geopraphic Filmmaker [Sandesh Kadur](https://en.wikipedia.org/wiki/Sandesh_Kadur) as editor & DIT at at [**Felis Creations**](https://www.felis.in).</div>
+</div>
