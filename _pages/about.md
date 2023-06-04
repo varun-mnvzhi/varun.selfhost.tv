@@ -29,3 +29,12 @@ I’m a wildlife researcher turned natural history film editor driven by stories
 
 {: md_center}
 
+<div class="row">
+    <div class="six columns">Six</div>
+    <div class="six columns">Six</div>
+  </div>
+
+sdasdas
+
+das
+sadasd
