@@ -5,7 +5,7 @@
 # appears at the beginning of the web page and in the tab of web browsers
 title: contact me
 # `description` is a tag line or sub-heading for the web page.
-description: Reach out to me and let’s create something amazing together.
+description: 
 # `type` decides what kind of page is this and where does it appear
 # set this to `parent` to make this page appear in the navigation bar
 # set this to the `title` of the parent you want it to appear under
@@ -21,9 +21,9 @@ layout: parent
 
 [//]: # (Here you can write the content of the page in markdown.)
 
-Reach out to me and let's create something amazing together.
+Reach out to me and let’s create something amazing together.
+{: md_center}
 
-<h2>Drop me an email</h2>
 <form class="cf">
   <div class="half left cf">
     <input type="text" id="input-name" placeholder="Name">
@@ -36,3 +36,4 @@ Reach out to me and let's create something amazing together.
   <input type="submit" value="Submit" id="input-submit">
 </form>
 
+{: md_center}
