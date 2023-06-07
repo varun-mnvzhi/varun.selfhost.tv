@@ -17,7 +17,7 @@ layout: default
 # `links` is a list of unique youtube video ids
 links: 
     - Dic2QqrEtUk
-    - Dic2QqrEtUk
+    - dGT9ii-YIdc
 ---
 I am _child 1_, you found me under **parent A**.
 Here is some text content.
