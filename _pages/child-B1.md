@@ -13,7 +13,7 @@ type: parent-B
 # `layout` is the looks of this web page
 # set this to `parent` for everything that is listed in the navigation bar
 # set this to `default` for everything that is not listed in the navigation bar
-layout: default
+layout: child
 # `links` is a list of unique youtube video ids
 links: 
     - Gp25OkDIKjQ

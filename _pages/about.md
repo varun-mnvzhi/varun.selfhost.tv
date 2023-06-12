@@ -18,26 +18,16 @@ order: 2
 # set this to `default` for everything that is not listed in the navigation bar
 layout: parent
 ---
-<head>
-<style>
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border: 3px solid green; 
-}
-</style>
-</head>
 
 [//]: # (I wanted this text centered so here is a hack using kramdown blocks.)
 
-<div class="row">
-    <div class="six columns"><img src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg" width="400" height="400"></div>
-    <div class="six columns">
-      <div class="vertical-center">
-    <p markdown="1" style="text-align: center;">
-I’m a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home. I’m comfortable with both extreme weather remote DIT assignments and high intensity post production studio work. At present, I work with BAFTA Award winning National Geopraphic Filmmaker [**Sandesh Kadur**](https://en.wikipedia.org/wiki/Sandesh_Kadur) as editor & DIT at at [**Felis Creations**](https://www.felis.in).</p>
-  </div>
+<div class="one-half column">
+  <img class="lozad u-max-full-width" data-src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg">
 </div>
-  </div>
+<div class="one-half column">
+  <p class="u-max-full-width" markdown="1" style="position: absolute; transform: translateY(-50%); top:50%;">
+    I’m a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home.
+    I’m comfortable with both extreme weather remote DIT assignments and high intensity post production studio work.
+    At present, I work with BAFTA Award winning National Geopraphic Filmmaker [**Sandesh Kadur**](https://en.wikipedia.org/wiki/Sandesh_Kadur) as editor & DIT at at [**Felis Creations**](https://www.felis.in).
+  </p>
+</div>
