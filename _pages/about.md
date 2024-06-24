@@ -22,12 +22,12 @@ layout: parent
 [//]: # (I wanted this text centered so here is a hack using kramdown blocks.)
 
 <div class="one-half column">
-  <img class="lozad u-max-full-width" data-src="https://felis.in/wp-content/uploads/2022/09/Varun-1-1-2048x2048.jpg">
+  <img class="lozad u-max-full-width" data-src="https://static.wixstatic.com/media/17e143_a5434d885d89403881560c710c67a3ad~mv2.jpg/v1/crop/x_435,y_929,w_3006,h_3946/fill/w_606,h_796,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/20240201_FC_A6700_001_BLR_VM_0133-min.jpg">
 </div>
 <div class="one-half column">
   <p class="u-max-full-width" markdown="1" style="position: absolute; transform: translateY(-50%); top:50%;">
-    I’m a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home.
-    I’m comfortable with both extreme weather remote DIT assignments and high intensity post production studio work.
+    Iâm a wildlife researcher turned natural history film editor driven by stories about our beautiful planet and the myriad of creatures that call it home.
+    Iâm comfortable with both extreme weather remote DIT assignments and high intensity post production studio work.
     At present, I work with BAFTA Award winning National Geopraphic Filmmaker [**Sandesh Kadur**](https://en.wikipedia.org/wiki/Sandesh_Kadur) as editor & DIT at at [**Felis Creations**](https://www.felis.in).
   </p>
 </div>
