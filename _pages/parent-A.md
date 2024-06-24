@@ -3,7 +3,7 @@
 
 # `title` sets the title of the web page
 # appears at the beginning of the web page and in the tab of web browsers
-title: parent-A
+title: Natural History
 # `description` is a tag line or sub-heading for the web page.
 description: I dabble in Genre A
 # `type` decides what kind of page is this and where does it appear
