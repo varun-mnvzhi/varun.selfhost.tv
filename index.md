@@ -5,7 +5,7 @@
 # appears at the beginning of the web page and in the tab of web browsers
 title: film editor
 # `description` is a tag line or sub-heading for the web page.
-description: discovering the world with my vision
+description: crafting stories one cut at a time
 # `type` decides what kind of page is this and where does it appear
 # set this to `parent` to make this page appear in the navigation bar
 # set this to the `title` of the parent you want it to appear under
