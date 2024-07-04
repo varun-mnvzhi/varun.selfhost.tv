@@ -9,16 +9,16 @@ description: I nailed this project look at it
 # `type` decides what kind of page is this and where does it appear
 # set this to `parent` to make this page appear in the navigation bar
 # set this to the `title` of the parent you want it to appear under
-type: parent-A
+type: Natural History
 # `layout` is the looks of this web page
 # set this to `parent` for everything that is listed in the navigation bar
-# set this to `default` for everything that is not listed in the navigation bar
+# set this to `child` for everything that is not listed in the navigation bar
 layout: child
 # `links` is a list of unique youtube video ids
-links: 
+links:
     - Dic2QqrEtUk
     - dGT9ii-YIdc
     - bV8spKwpfCU
 ---
-I am _child 1_, you found me under **parent A**.
+I am _child 1_, you found me under **Natural History**.
 Here is some text content.

@@ -9,15 +9,15 @@ description: I am on fire
 # `type` decides what kind of page is this and where does it appear
 # set this to `parent` to make this page appear in the navigation bar
 # set this to the `title` of the parent you want it to appear under
-type: parent-B
+type: Ads
 # `layout` is the looks of this web page
 # set this to `parent` for everything that is listed in the navigation bar
-# set this to `default` for everything that is not listed in the navigation bar
+# set this to `child` for everything that is not listed in the navigation bar
 layout: child
 # `links` is a list of unique youtube video ids
-links: 
+links:
     - Gp25OkDIKjQ
     - Dic2QqrEtUk
 ---
-I am _child 1_, you found me under **parent B**.
+I am _child 1_, you found me under **Ads**.
 Here is some text content, again.

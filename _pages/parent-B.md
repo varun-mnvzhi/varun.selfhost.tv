@@ -15,7 +15,7 @@ type: parent
 order: 4
 # `layout` is the looks of this web page
 # set this to `parent` for everything that is listed in the navigation bar
-# set this to `default` for everything that is not listed in the navigation bar
+# set this to `child` for everything that is not listed in the navigation bar
 layout: parent
 ---
 

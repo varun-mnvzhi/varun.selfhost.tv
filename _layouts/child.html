@@ -3,25 +3,29 @@
 {% include head.html %}
 <body>
 	{% include header.html %}
-	<!-- Primary Page Layout -->
-
+	<!-- Child Page Layout -->
 	<div class="section main">
 		<div class="container">
 			{{ content }}
+			{% assign l = page.links.size %}
+			{% if l > 0 %}
+			{% assign l = page.links.size | divided_by: 2 | ceil %}
+			<!-- Loop through videos -->
 			<div class="row" id="gallery">
 				<div class="one-half column">
-					{% for link in page.links %}
+					{% for link in page.links limit: l %}
 					<lite-youtube videoid="{{ link }}"
 					posterquality="maxresdefault" nocookie></lite-youtube>
 					{% endfor %}
 				</div>
 				<div class="one-half column">
-					{% for link in page.links %}
+					{% for link in page.links offset: l %}
 					<lite-youtube videoid="{{ link }}"
 					posterquality="maxresdefault" nocookie></lite-youtube>
 					{% endfor %}
 				</div>
 			</div>
+			{% endif %}
 		</div>
 	</div>
 

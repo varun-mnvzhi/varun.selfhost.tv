@@ -3,33 +3,40 @@
 {% include head.html %}
 <body>
 	{% include header.html %}
- 	<!-- Primary Page Layout -->
 	{% if page.order == 1 %}
+	<!-- Home Page Layout -->
 	<div class="section hero">
 		<div class="container">
 			<lite-youtube videoid="{{ page.hero }}" posterquality="maxresdefault" nocookie></lite-youtube>
 		</div>
 	</div>
-
-	{{ content }}
-			<!-- End Home Page Layout -->
-	{% else %}
+	{% if content.size > 1 %}
 	<div class="section main">
 		<div class="container">
-			<!-- Parent Page Layout -->
 			{{ content }}
+		</div>
+	</div>
+	{% endif %}
+	<!-- End Home Page Layout -->
+	{% else %}
+	<!-- Parent Page Layout -->
+	<div class="section main">
+		<div class="container">
+			{{ content }}
+			{% assign mypages = site.pages | where: "type", page.title %}
+			{% if mypages.size > 0 %}
 			<div class="row">
-				<div class="offset-by-one-third one-third column">
-					{% assign mypages = site.pages | where: "type", page.title %}
+				<div class="offset-by-three one-half column">
 					{% for page in mypages %}
 					<a class="button button-primary" href="{{ page.url | relative_url }}">{{ page.title }}</a>
 					{% endfor %}
 				</div>
 			</div>
-			<!-- End Parent Page Layout -->
 			{% endif %}
 		</div>
 	</div>
+	<!-- End Parent Page Layout -->
+	{% endif %}
 
 	<!-- End Document -->
 	{% include footer.html %}
